@@ -1,0 +1,1238 @@
+The FetchEvent for "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" resulted in a network error response: the promise was rejected.
+service-worker.js:1  Uncaught (in promise) TypeError: Failed to fetch
+    at i (service-worker.js:1:27417)
+    at n (service-worker.js:1:25190)
+    at service-worker.js:1:27591
+i @ service-worker.js:1
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+vcd15cbe7772f49c399c6a5babf22c1241717689176015:1  Failed to load resource: net::ERR_FAILED
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4920 🚀 WPlace Auto-Image with Turnstile Generator loaded
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4921 🔑 Turnstile generator: ALWAYS ENABLED
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4922 🎯 Manual pixel captcha solving: DISABLED - fully automated!
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4927 🔧 Initializing Turnstile token generator...
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Turnstile already has been loaded. Was Turnstile imported multiple times?
+x @ api.js?render=explicit:1
+(index):1 Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1076 Turnstile timeout-callback
+timeout-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1076
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849 ❌ Turnstile token generation failed: Error: Invalid or empty token received
+    at handleCaptcha (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1846:15)
+    at async initializeTokenGenerator (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4930:21)
+handleCaptcha @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1852 🔄 Falling back to browser automation...
+VM1164:25 ✅ Turnstile Token Captured: 0.84dql7VgOUHW5bvLLy2k3k1S3lQPnXSOb_DaQ1YgYsu4E35Jzwp8Veb2vHjUeMftgzwRL7LCRO3ak8Z1kIlANU9EwAZJ-jRYF5xy4OJjbapCyy96nylHuc-R_Ymr98ssUokqx_eYeZbsI1wk7SlrDxYup7I9TMbPjpoqh1l2oOd6mXVe9K9IfhhVbuEw0Ju8jFZVjEDY5mMtA834rvyZP2sQiYzUFL5EKAbhmkmMXGC6zWDH8Pplp827H9PGajvaDjIk9c0F96WdWz4NBpL2f_1ag9dJsEO6l8zpTo-6KgK0L72Ojc5ryZtObfbHSmeiTh6AqWhv0H5L7frRswW8_LJMMCpmYb8smiTxh-q_um-wlc33d-8GBSKFEbObUFLEeUSOrb0ekgmgsMRVOxpBxwk2KBFm0XSsmc6rFL_LpAOOXIHAmTs5t6JbMko2zwRpAY63Fe53jkCyrC5Iy9kPkL9j7_low7KF1HjUkd8gDbSQStdSg19KqTtlAMSf57ymTFGZ52FNugynh3Yurv7N4GUW2L0-OcWLpQ4r_xN9ihb7-mS5NvLY7xMrNNSz8wCg-897mv188n8R07jbf3dcc2ptc_g47ALGrBLPSmzqaywbPrZ4wSkieM6FnX-DTH5BCwbHMeKeHTIJOcoL9-Op3HgimQEgjEG-z55RiPtVgPI0yVzeWUpZzZ9Whkyob8S6dIm_oghmLHfh0dTFrg1uUJtl-zI1z26Hh2enEy6esQVzPHvb8Zxl7OGF5ckRsfTmVTj6x1d8poF8Q8GI9RmD_U5ic3MGlOOPZRQ475EDZfH1v3b4QmQW664MVssEarnWDJGPnQl2lepEqCd70B_Vj35iPTvJuS7zL5XhgC3go2BRt0wLfb8jgDtcuZwRVyl_IQW3v2wpNsrOFqnImsGF3-0-YY4bawuuZuIeNSzUOr0.wB_ieNBHTgYwVkXF6YetGQ.f8a32a589093c09382adf58aaa48022948a2c1b5cc687b2f4c8f828ab91b2d9e
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4933 ✅ Startup token generated successfully
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:815 Overlay processed into 2 chunks.
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1535 Overlay restored from data
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1327 === CAPTURED COLORS STATUS ===
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1328 Total available colors: 1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1329 Total unavailable colors: 0
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1330 Total colors scanned: 1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1333 
+--- AVAILABLE COLORS ---
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 1. ID: NaN, Name: "Unknown Color NaN", RGB: (0, 0, 0)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1346 === END COLOR STATUS ===
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+1dcd5265-464a-4ba5-8769-08b9f03bda39:1 Expected value to be of type number, but found null instead.
+evaluate @ 1dcd5265-464a-4ba5-8769-08b9f03bda39:1
+VM1164:52 Uncaught (in promise) AbortError: The user aborted a request.
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1327 === CAPTURED COLORS STATUS ===
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1328 Total available colors: 32
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1329 Total unavailable colors: 0
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1330 Total colors scanned: 32
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1333 
+--- AVAILABLE COLORS ---
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 1. ID: 1, Name: "Black", RGB: (0, 0, 0)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 2. ID: 2, Name: "Dark Gray", RGB: (60, 60, 60)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 3. ID: 3, Name: "Gray", RGB: (120, 120, 120)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 4. ID: 4, Name: "Light Gray", RGB: (210, 210, 210)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 5. ID: 5, Name: "White", RGB: (255, 255, 255)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 6. ID: 6, Name: "Deep Red", RGB: (96, 0, 24)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 7. ID: 7, Name: "Red", RGB: (237, 28, 36)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 8. ID: 8, Name: "Orange", RGB: (255, 127, 39)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 9. ID: 9, Name: "Gold", RGB: (246, 170, 9)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 10. ID: 10, Name: "Yellow", RGB: (249, 221, 59)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 11. ID: 11, Name: "Light Yellow", RGB: (255, 250, 188)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 12. ID: 12, Name: "Dark Green", RGB: (14, 185, 104)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 13. ID: 13, Name: "Green", RGB: (19, 230, 123)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 14. ID: 14, Name: "Light Green", RGB: (135, 255, 94)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 15. ID: 15, Name: "Dark Teal", RGB: (12, 129, 110)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 16. ID: 16, Name: "Teal", RGB: (16, 174, 166)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 17. ID: 17, Name: "Light Teal", RGB: (19, 225, 190)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 18. ID: 18, Name: "Dark Blue", RGB: (40, 80, 158)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 19. ID: 19, Name: "Blue", RGB: (64, 147, 228)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 20. ID: 20, Name: "Cyan", RGB: (96, 247, 242)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 21. ID: 21, Name: "Indigo", RGB: (107, 80, 246)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 22. ID: 22, Name: "Light Indigo", RGB: (153, 177, 251)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 23. ID: 23, Name: "Dark Purple", RGB: (120, 12, 153)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 24. ID: 24, Name: "Purple", RGB: (170, 56, 185)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 25. ID: 25, Name: "Light Purple", RGB: (224, 159, 249)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 26. ID: 26, Name: "Dark Pink", RGB: (203, 0, 122)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 27. ID: 27, Name: "Pink", RGB: (236, 31, 128)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 28. ID: 28, Name: "Light Pink", RGB: (243, 141, 169)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 29. ID: 29, Name: "Dark Brown", RGB: (104, 70, 52)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 30. ID: 30, Name: "Brown", RGB: (149, 104, 42)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 31. ID: 31, Name: "Beige", RGB: (248, 178, 119)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1335 32. ID: NaN, Name: "Unknown Color NaN", RGB: (0, 0, 0)
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1346 === END COLOR STATUS ===
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:815 Overlay processed into 4 chunks.
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1596 Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+resize @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1596
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:815 Overlay processed into 1 chunks.
+VM1164:25 ✅ Turnstile Token Captured: 0.6y6Iz_APYU7hNvMlc23ugoWS7p9ONm1iZ_3A5GQn-uA6y-eRw0BXDUey0OkBB5cBsvJDeKqnrz08EvlR_46APxkAbaXArgQ1WgZNBre53xRoAPkM_4Wn5_a2pYbXJBGRr1Z8ItuWO4vMctDpTBPtCyZT8WTBTITB6Zo7gbds0E0_IBnjvBNvZN6ehMnOzPBhnmrI3n22znMMS6g-QPr9e3eESBl9GCZeEtYT8vBe8DAAQIWwbLldSQUZbM57nA98pKREz-rHW9ueTq1-6ivqnpkQULW314h88tYQHQ2SWPY1yd5SJi8C4QqZe1ZGCPugzj8MSxPnGdUjqWhdsjFwS_PdVGj401Jn4fr-O2s0BQ7hUvlMw4F1FvykVVY-gKYXmTJPHd0k5SjRChd7XUUiIEZFtUTqUSjk-Tic9Y7hp4b-bRiXaZpSVJUEc5GC_ok9EgqtB0OBAcGaLmZ-z_odE-xr08CXHqPooBTLYplVo-mX_RGryOsyTrymptevJGaQQ9YlF6SIMI84oqH1-7BAJNAdLo3vDc9xlad6ghXLnPMWqJGdPs8BF024RGVqhPNND-vhmirDhIVuedc0KfEy4U8x7JkxXwKfimHiwHjCSv7Qj_wBL4yvoGhBKUi8SR4wRgRkn4U6-qwW21mnRSrPug97VTNODlsNKvzaG1yGisLmVGqGS-Vb_hnhwj4xKK7Fl0eEvEfwkX5t0IzyIA2NC6M2xvNXFAo_47UtBQVEdDwTJk_ytoz3Nv3pCtspmejH_n9AluwgeRuPQIwifBoPuDFf5BGZEbsMkA4k5caDc2eDgD_2wFYauj8yvYJ_UsxfPLmrLyqnb0ddAnwfx7UHBlKhJbAI2SfPZsPag-dLvPELsakca57UqCtAjcwhFl-vNqFV5jOWjaz2qCfb86y8mIrNTs8-O6fpIHQ8_yRFVYE.qHTJib7VjsbUoKbE8Ymrfw.12d870a6c11ee8fa1c4c85b5beb60ec43b5c125b469d2ff147f45c1fc06b2e29
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:815 Overlay processed into 1 chunks.
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+backend.wplace.live/s0/pixel/1955/832:1  Failed to load resource: the server responded with a status of 403 ()
+VM1164:25 ✅ Turnstile Token Captured: 0.6y6Iz_APYU7hNvMlc23ugoWS7p9ONm1iZ_3A5GQn-uA6y-eRw0BXDUey0OkBB5cBsvJDeKqnrz08EvlR_46APxkAbaXArgQ1WgZNBre53xRoAPkM_4Wn5_a2pYbXJBGRr1Z8ItuWO4vMctDpTBPtCyZT8WTBTITB6Zo7gbds0E0_IBnjvBNvZN6ehMnOzPBhnmrI3n22znMMS6g-QPr9e3eESBl9GCZeEtYT8vBe8DAAQIWwbLldSQUZbM57nA98pKREz-rHW9ueTq1-6ivqnpkQULW314h88tYQHQ2SWPY1yd5SJi8C4QqZe1ZGCPugzj8MSxPnGdUjqWhdsjFwS_PdVGj401Jn4fr-O2s0BQ7hUvlMw4F1FvykVVY-gKYXmTJPHd0k5SjRChd7XUUiIEZFtUTqUSjk-Tic9Y7hp4b-bRiXaZpSVJUEc5GC_ok9EgqtB0OBAcGaLmZ-z_odE-xr08CXHqPooBTLYplVo-mX_RGryOsyTrymptevJGaQQ9YlF6SIMI84oqH1-7BAJNAdLo3vDc9xlad6ghXLnPMWqJGdPs8BF024RGVqhPNND-vhmirDhIVuedc0KfEy4U8x7JkxXwKfimHiwHjCSv7Qj_wBL4yvoGhBKUi8SR4wRgRkn4U6-qwW21mnRSrPug97VTNODlsNKvzaG1yGisLmVGqGS-Vb_hnhwj4xKK7Fl0eEvEfwkX5t0IzyIA2NC6M2xvNXFAo_47UtBQVEdDwTJk_ytoz3Nv3pCtspmejH_n9AluwgeRuPQIwifBoPuDFf5BGZEbsMkA4k5caDc2eDgD_2wFYauj8yvYJ_UsxfPLmrLyqnb0ddAnwfx7UHBlKhJbAI2SfPZsPag-dLvPELsakca57UqCtAjcwhFl-vNqFV5jOWjaz2qCfb86y8mIrNTs8-O6fpIHQ8_yRFVYE.qHTJib7VjsbUoKbE8Ymrfw.12d870a6c11ee8fa1c4c85b5beb60ec43b5c125b469d2ff147f45c1fc06b2e29
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817 ❌ 403 Forbidden. Turnstile token might be invalid or expired.
+sendPixelBatch @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4821 🔄 Regenerating Turnstile token after 403...
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-x52bb), consider using reset() before execute().
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1843 ✅ Turnstile token generated successfully
+VM1164:25 ✅ Turnstile Token Captured: 0.h2_kn1-r666v3vU4FsXoZ30TQE1Ht8kGn2Dp31-unl4QroCRO7cPEDs7NxyMIJycY8iqL0Uxh15bIgU-WJWQY2yL25lvjqwau7xv5D7YmdOQzhSKgKFFeV-Zy7gpkkqLpLWn492LvcSFgw_ZnAbLiYYu7yVPUQEmMlhW_bU8ZCBesQtHpKs_D5bKm4inW2dYzKe9uJGW75CwAlZUcWW1L2dvDRebOIEAuKTAT_ZWkR7L4BV9n-y3jzvRLxlEyTw-uhHkpWvJbGhYjPPnqMv10l99o1zYmkWrXmcAGRjaYhbesHtMGnkquQxVupa0j3GxlsM49AqPmz-AEkIk3ncl87CH-EekyiR036dl3vNEK7PgncP7s-KxZxHBUnIXDGQzX97vVndOGFr7pcu7BWwd-mS9mV8aQ2Keyx5j6EMo6240MDzvQhvP8VOMUO9w72qmoIRsQmRrijfyvWLeSfz9i9oZcQh3BsV1nr9p8142GDO96LP6ZHai0KspOKhxktKsvCNPrbGLFA02o1Ommew_q7oXGjfZ49VRrTArkIu7TiRd7XJhp_Bkx0Qq2bR_mnQl9vrDdy4yYSaQrhAfpyqKeR3A6K0p40vqwMH1a1-zDTa-SYPa63H2yL0dr3fdsQ8pTLgqXTnDXGOmsivUc3OQPvPMvT_o_2hyURsDwyNRahgnVoq0wPiPyRRG_PhDk-GoiV6pFIktCvqGehcHADkzueT1iiDyjXs2Jl7ID0ShS-N8vPHd9qTn_F0Gdr4AuxX2keJxjKhgdEhRDCS4V9ZTt4woSQTS1LYBmNrpf1sjX7DGJUFhYUMSr2X70cIM-ZklBHVoTqn7hzxMT71jSUr1aPuYseGCso7XyUgGTfhl5PvOWGNA4tsMmtwfWvftDJz5TVEmZnw_izymP99y5Mua09kSNFTs6MGEOwjtilku9gA.IkAfm8V9VO2WDvVSQeva6w.3cd1521499e6c96ab2de2de74ee41d3797e8a2a9480ba71dfdcd5ad360373005
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+VM1164:25 ✅ Turnstile Token Captured: 0.h2_kn1-r666v3vU4FsXoZ30TQE1Ht8kGn2Dp31-unl4QroCRO7cPEDs7NxyMIJycY8iqL0Uxh15bIgU-WJWQY2yL25lvjqwau7xv5D7YmdOQzhSKgKFFeV-Zy7gpkkqLpLWn492LvcSFgw_ZnAbLiYYu7yVPUQEmMlhW_bU8ZCBesQtHpKs_D5bKm4inW2dYzKe9uJGW75CwAlZUcWW1L2dvDRebOIEAuKTAT_ZWkR7L4BV9n-y3jzvRLxlEyTw-uhHkpWvJbGhYjPPnqMv10l99o1zYmkWrXmcAGRjaYhbesHtMGnkquQxVupa0j3GxlsM49AqPmz-AEkIk3ncl87CH-EekyiR036dl3vNEK7PgncP7s-KxZxHBUnIXDGQzX97vVndOGFr7pcu7BWwd-mS9mV8aQ2Keyx5j6EMo6240MDzvQhvP8VOMUO9w72qmoIRsQmRrijfyvWLeSfz9i9oZcQh3BsV1nr9p8142GDO96LP6ZHai0KspOKhxktKsvCNPrbGLFA02o1Ommew_q7oXGjfZ49VRrTArkIu7TiRd7XJhp_Bkx0Qq2bR_mnQl9vrDdy4yYSaQrhAfpyqKeR3A6K0p40vqwMH1a1-zDTa-SYPa63H2yL0dr3fdsQ8pTLgqXTnDXGOmsivUc3OQPvPMvT_o_2hyURsDwyNRahgnVoq0wPiPyRRG_PhDk-GoiV6pFIktCvqGehcHADkzueT1iiDyjXs2Jl7ID0ShS-N8vPHd9qTn_F0Gdr4AuxX2keJxjKhgdEhRDCS4V9ZTt4woSQTS1LYBmNrpf1sjX7DGJUFhYUMSr2X70cIM-ZklBHVoTqn7hzxMT71jSUr1aPuYseGCso7XyUgGTfhl5PvOWGNA4tsMmtwfWvftDJz5TVEmZnw_izymP99y5Mua09kSNFTs6MGEOwjtilku9gA.IkAfm8V9VO2WDvVSQeva6w.3cd1521499e6c96ab2de2de74ee41d3797e8a2a9480ba71dfdcd5ad360373005
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+backend.wplace.live/s0/pixel/1955/832:1  Failed to load resource: the server responded with a status of 403 ()
+VM1164:25 ✅ Turnstile Token Captured: 0.h2_kn1-r666v3vU4FsXoZ30TQE1Ht8kGn2Dp31-unl4QroCRO7cPEDs7NxyMIJycY8iqL0Uxh15bIgU-WJWQY2yL25lvjqwau7xv5D7YmdOQzhSKgKFFeV-Zy7gpkkqLpLWn492LvcSFgw_ZnAbLiYYu7yVPUQEmMlhW_bU8ZCBesQtHpKs_D5bKm4inW2dYzKe9uJGW75CwAlZUcWW1L2dvDRebOIEAuKTAT_ZWkR7L4BV9n-y3jzvRLxlEyTw-uhHkpWvJbGhYjPPnqMv10l99o1zYmkWrXmcAGRjaYhbesHtMGnkquQxVupa0j3GxlsM49AqPmz-AEkIk3ncl87CH-EekyiR036dl3vNEK7PgncP7s-KxZxHBUnIXDGQzX97vVndOGFr7pcu7BWwd-mS9mV8aQ2Keyx5j6EMo6240MDzvQhvP8VOMUO9w72qmoIRsQmRrijfyvWLeSfz9i9oZcQh3BsV1nr9p8142GDO96LP6ZHai0KspOKhxktKsvCNPrbGLFA02o1Ommew_q7oXGjfZ49VRrTArkIu7TiRd7XJhp_Bkx0Qq2bR_mnQl9vrDdy4yYSaQrhAfpyqKeR3A6K0p40vqwMH1a1-zDTa-SYPa63H2yL0dr3fdsQ8pTLgqXTnDXGOmsivUc3OQPvPMvT_o_2hyURsDwyNRahgnVoq0wPiPyRRG_PhDk-GoiV6pFIktCvqGehcHADkzueT1iiDyjXs2Jl7ID0ShS-N8vPHd9qTn_F0Gdr4AuxX2keJxjKhgdEhRDCS4V9ZTt4woSQTS1LYBmNrpf1sjX7DGJUFhYUMSr2X70cIM-ZklBHVoTqn7hzxMT71jSUr1aPuYseGCso7XyUgGTfhl5PvOWGNA4tsMmtwfWvftDJz5TVEmZnw_izymP99y5Mua09kSNFTs6MGEOwjtilku9gA.IkAfm8V9VO2WDvVSQeva6w.3cd1521499e6c96ab2de2de74ee41d3797e8a2a9480ba71dfdcd5ad360373005
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817 ❌ 403 Forbidden. Turnstile token might be invalid or expired.
+sendPixelBatch @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4821 🔄 Regenerating Turnstile token after 403...
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-dvq89), consider using reset() before execute().
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1843 ✅ Turnstile token generated successfully
+VM1164:25 ✅ Turnstile Token Captured: 0.6lYGJyHBzNmvHnpN8BL_tSyGLzYCi76-yrjZp-AOEmJyTRI-zT5OwRNTmm53u6EBuFAGmBjM-p28HvqKofObBbhXecGVcNOEv1-2b_nxLL_yqyqdd_1ktBAlL8Rti3tbYVUii0fv_XbALM8sxpQdyPR93DU3wVUKI4Tegfg7DQCp3b4O3TevbIWCmFd4D8kZuh3YfjWfwuv8lY5MmoiT_3PV5sdodAIUQYG6HZZuVYi86TCDi2FNncchBp62_FPMOjtEuBUNHWFIkLttpTpQGiJSnxiAkcAloqukJTEEKYvNjbcwK-ut0v5ZibIMWoAxuvxyvDQjCH8amb5nc9ghLE4hctPkRq17oAIOgBP8xM-MpROHBrWFWmJdfryrOJuqe37Xi7dhVq715wEIKgQmBl9tPkwS__AmtAz4dx04-9cmT02FhTVKav_xrySvz_7-C2j6xzArdzpwk-_Ygniwjev6nyA3U_5OY4FpyytX9RR3xppD0QZNoFXGy9d0vlPhOTSFc5rT_ovXorQnTd6uRVKfYWKUd5gV4NblDRsxis3-uWCTU-1mo2GCpmwYEp1OKZoGj5MZ8YkrpYH4BjsdU6b52ATKQ3Je47-oOZI5wAek57h-vlCsJkz9c3WMP9RniFS18q8fAwwqly4C3mDFXJaMnkCqUGn4QRFn8yYXeRHotAb1SGHCauKuKgGJg67QvAPOzIoQYbuCaimkQK_3yANR1DN8-hYIMRZlc1IWt5ntLvSpgxUq-j2AA352KfZFdR6oC2iT0R20Hq0HpC6BwxyLOFvTtslhlNNF06UNLf-8Yuc8lfsy9ruuCLN76D6XwZQnZEdzt84D7M2N43aFwWY81_s8_Hz7di9apUI8Thxk0Sy_eWm5OBqzFdELV9SUWWERNSjE0DzCT0DRWnylHZ6MpD64S0AkTZ-IIy92a64.OCoLTFKTbZlRjM376aKwIQ.5cfa8e2bc95500d7c7cc88aa01672aedae97968dcedb011195d15f20ccd4d2a6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+VM1164:25 ✅ Turnstile Token Captured: 0.6lYGJyHBzNmvHnpN8BL_tSyGLzYCi76-yrjZp-AOEmJyTRI-zT5OwRNTmm53u6EBuFAGmBjM-p28HvqKofObBbhXecGVcNOEv1-2b_nxLL_yqyqdd_1ktBAlL8Rti3tbYVUii0fv_XbALM8sxpQdyPR93DU3wVUKI4Tegfg7DQCp3b4O3TevbIWCmFd4D8kZuh3YfjWfwuv8lY5MmoiT_3PV5sdodAIUQYG6HZZuVYi86TCDi2FNncchBp62_FPMOjtEuBUNHWFIkLttpTpQGiJSnxiAkcAloqukJTEEKYvNjbcwK-ut0v5ZibIMWoAxuvxyvDQjCH8amb5nc9ghLE4hctPkRq17oAIOgBP8xM-MpROHBrWFWmJdfryrOJuqe37Xi7dhVq715wEIKgQmBl9tPkwS__AmtAz4dx04-9cmT02FhTVKav_xrySvz_7-C2j6xzArdzpwk-_Ygniwjev6nyA3U_5OY4FpyytX9RR3xppD0QZNoFXGy9d0vlPhOTSFc5rT_ovXorQnTd6uRVKfYWKUd5gV4NblDRsxis3-uWCTU-1mo2GCpmwYEp1OKZoGj5MZ8YkrpYH4BjsdU6b52ATKQ3Je47-oOZI5wAek57h-vlCsJkz9c3WMP9RniFS18q8fAwwqly4C3mDFXJaMnkCqUGn4QRFn8yYXeRHotAb1SGHCauKuKgGJg67QvAPOzIoQYbuCaimkQK_3yANR1DN8-hYIMRZlc1IWt5ntLvSpgxUq-j2AA352KfZFdR6oC2iT0R20Hq0HpC6BwxyLOFvTtslhlNNF06UNLf-8Yuc8lfsy9ruuCLN76D6XwZQnZEdzt84D7M2N43aFwWY81_s8_Hz7di9apUI8Thxk0Sy_eWm5OBqzFdELV9SUWWERNSjE0DzCT0DRWnylHZ6MpD64S0AkTZ-IIy92a64.OCoLTFKTbZlRjM376aKwIQ.5cfa8e2bc95500d7c7cc88aa01672aedae97968dcedb011195d15f20ccd4d2a6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+backend.wplace.live/s0/pixel/1955/832:1  Failed to load resource: the server responded with a status of 403 ()
+VM1164:25 ✅ Turnstile Token Captured: 0.6lYGJyHBzNmvHnpN8BL_tSyGLzYCi76-yrjZp-AOEmJyTRI-zT5OwRNTmm53u6EBuFAGmBjM-p28HvqKofObBbhXecGVcNOEv1-2b_nxLL_yqyqdd_1ktBAlL8Rti3tbYVUii0fv_XbALM8sxpQdyPR93DU3wVUKI4Tegfg7DQCp3b4O3TevbIWCmFd4D8kZuh3YfjWfwuv8lY5MmoiT_3PV5sdodAIUQYG6HZZuVYi86TCDi2FNncchBp62_FPMOjtEuBUNHWFIkLttpTpQGiJSnxiAkcAloqukJTEEKYvNjbcwK-ut0v5ZibIMWoAxuvxyvDQjCH8amb5nc9ghLE4hctPkRq17oAIOgBP8xM-MpROHBrWFWmJdfryrOJuqe37Xi7dhVq715wEIKgQmBl9tPkwS__AmtAz4dx04-9cmT02FhTVKav_xrySvz_7-C2j6xzArdzpwk-_Ygniwjev6nyA3U_5OY4FpyytX9RR3xppD0QZNoFXGy9d0vlPhOTSFc5rT_ovXorQnTd6uRVKfYWKUd5gV4NblDRsxis3-uWCTU-1mo2GCpmwYEp1OKZoGj5MZ8YkrpYH4BjsdU6b52ATKQ3Je47-oOZI5wAek57h-vlCsJkz9c3WMP9RniFS18q8fAwwqly4C3mDFXJaMnkCqUGn4QRFn8yYXeRHotAb1SGHCauKuKgGJg67QvAPOzIoQYbuCaimkQK_3yANR1DN8-hYIMRZlc1IWt5ntLvSpgxUq-j2AA352KfZFdR6oC2iT0R20Hq0HpC6BwxyLOFvTtslhlNNF06UNLf-8Yuc8lfsy9ruuCLN76D6XwZQnZEdzt84D7M2N43aFwWY81_s8_Hz7di9apUI8Thxk0Sy_eWm5OBqzFdELV9SUWWERNSjE0DzCT0DRWnylHZ6MpD64S0AkTZ-IIy92a64.OCoLTFKTbZlRjM376aKwIQ.5cfa8e2bc95500d7c7cc88aa01672aedae97968dcedb011195d15f20ccd4d2a6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817 ❌ 403 Forbidden. Turnstile token might be invalid or expired.
+sendPixelBatch @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4821 🔄 Regenerating Turnstile token after 403...
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-o49hx), consider using reset() before execute().
+x @ api.js?render=explicit:1
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b72e13a0aa4cc&lang=auto:1 
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b72e13a0aa4cc&lang=auto:1 Request for the Private Access Token challenge.
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300031
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849 ❌ Turnstile token generation failed: Error: Invalid or empty token received
+    at handleCaptcha (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1846:15)
+    at async sendPixelBatch (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4822:19)
+    at async processImage (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4656:27)
+    at async HTMLButtonElement.startPainting (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4452:9)
+handleCaptcha @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1852 🔄 Falling back to browser automation...
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+VM1164:25 ✅ Turnstile Token Captured: 0.XiXXuYR3lvTTMavVdnkTclNJLXWRUL2Rn6ybrFSwZaGewsdNFF4edaDrCMJ7XCGIGAbEiDxGe7-n0QuYHGFNjd0LEHG2SgCrfSYWWjMfv2EGUX4JASZU60ztaoHfgWlAbdEK5y-r6l9DT5hfs5u435x_vsRpdl-MwnTKLVyzRy8GTsmt5bAVahp-bZp1s2BtcZLZOZYyMDEgW27zUtA7jIvAEjhd2V1LyBM43xn6Crzj4jYI0ua9sQamxc3JaK_ywYxCIpoLHUlI1zyy02VEVkeuhWnDyPzx2LUhArdR19e1QkCyZnFmwsbp9K7sK4gDuAVvyvsEurVZxV7xBlSLWxuY49xXrNYJB1INkTJ77pDbkaHPi5C_ykTddj9dk1u21h6RB6vJ23J9cn6txbWSn2UQ18bCgisr3RPFtTDKtfP3AI3PSOCmZ1030dvygAvcCp9mkHJeq69-AjCbnS4WqHToXreTfA-2sMPVQeheGkAq5E0sGiGHu6vccYb_2X1acL1vK-DAMXpAMIJDyIlE4r6ahbuHxrz0sZq4Ptran9EQF6HnZpqfUGgBdYg8g2-iKqW36XfRaItiwDZq8GR_6uC40ffrRR7O3tg2ZVoaxZc_y38exx4RQq0xLyzoIB1SHIdgWxs1PgYChpleQK-blooBuVuLMVcpGIZh-c1Pf9j2BY4vx1DjbyX7aqCysBvkTN9I4Y5bt4WO7zIxIuTMxm7FMorJXTH3o943mGhUIKgLTiAaWFg8cC2yB_emROq4CfXNA6upZUYSTQvyRaPE_DstA5e0CmH3-YIXT97Cq1FizZ4HR_WSaFudhpusqgScAVkEgIwzXpmPzozWoin6wE1CV_qS4IouXhsb2PYChcPL-kZux9bHkuASsQmxlLvyzE_foPK6GWYCzcbHQtFOgwvDoemiZzm3hs7WrscCcJo.mim-dVgKTFTspgB5vlY5Hw.b38a51d3624ea8365483fabf71df8c045c9a12cfa86cbc1f9d1956eca26ab4e6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+VM1164:25 ✅ Turnstile Token Captured: 0.XiXXuYR3lvTTMavVdnkTclNJLXWRUL2Rn6ybrFSwZaGewsdNFF4edaDrCMJ7XCGIGAbEiDxGe7-n0QuYHGFNjd0LEHG2SgCrfSYWWjMfv2EGUX4JASZU60ztaoHfgWlAbdEK5y-r6l9DT5hfs5u435x_vsRpdl-MwnTKLVyzRy8GTsmt5bAVahp-bZp1s2BtcZLZOZYyMDEgW27zUtA7jIvAEjhd2V1LyBM43xn6Crzj4jYI0ua9sQamxc3JaK_ywYxCIpoLHUlI1zyy02VEVkeuhWnDyPzx2LUhArdR19e1QkCyZnFmwsbp9K7sK4gDuAVvyvsEurVZxV7xBlSLWxuY49xXrNYJB1INkTJ77pDbkaHPi5C_ykTddj9dk1u21h6RB6vJ23J9cn6txbWSn2UQ18bCgisr3RPFtTDKtfP3AI3PSOCmZ1030dvygAvcCp9mkHJeq69-AjCbnS4WqHToXreTfA-2sMPVQeheGkAq5E0sGiGHu6vccYb_2X1acL1vK-DAMXpAMIJDyIlE4r6ahbuHxrz0sZq4Ptran9EQF6HnZpqfUGgBdYg8g2-iKqW36XfRaItiwDZq8GR_6uC40ffrRR7O3tg2ZVoaxZc_y38exx4RQq0xLyzoIB1SHIdgWxs1PgYChpleQK-blooBuVuLMVcpGIZh-c1Pf9j2BY4vx1DjbyX7aqCysBvkTN9I4Y5bt4WO7zIxIuTMxm7FMorJXTH3o943mGhUIKgLTiAaWFg8cC2yB_emROq4CfXNA6upZUYSTQvyRaPE_DstA5e0CmH3-YIXT97Cq1FizZ4HR_WSaFudhpusqgScAVkEgIwzXpmPzozWoin6wE1CV_qS4IouXhsb2PYChcPL-kZux9bHkuASsQmxlLvyzE_foPK6GWYCzcbHQtFOgwvDoemiZzm3hs7WrscCcJo.mim-dVgKTFTspgB5vlY5Hw.b38a51d3624ea8365483fabf71df8c045c9a12cfa86cbc1f9d1956eca26ab4e6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+backend.wplace.live/s0/pixel/1955/832:1  Failed to load resource: the server responded with a status of 403 ()
+VM1164:25 ✅ Turnstile Token Captured: 0.XiXXuYR3lvTTMavVdnkTclNJLXWRUL2Rn6ybrFSwZaGewsdNFF4edaDrCMJ7XCGIGAbEiDxGe7-n0QuYHGFNjd0LEHG2SgCrfSYWWjMfv2EGUX4JASZU60ztaoHfgWlAbdEK5y-r6l9DT5hfs5u435x_vsRpdl-MwnTKLVyzRy8GTsmt5bAVahp-bZp1s2BtcZLZOZYyMDEgW27zUtA7jIvAEjhd2V1LyBM43xn6Crzj4jYI0ua9sQamxc3JaK_ywYxCIpoLHUlI1zyy02VEVkeuhWnDyPzx2LUhArdR19e1QkCyZnFmwsbp9K7sK4gDuAVvyvsEurVZxV7xBlSLWxuY49xXrNYJB1INkTJ77pDbkaHPi5C_ykTddj9dk1u21h6RB6vJ23J9cn6txbWSn2UQ18bCgisr3RPFtTDKtfP3AI3PSOCmZ1030dvygAvcCp9mkHJeq69-AjCbnS4WqHToXreTfA-2sMPVQeheGkAq5E0sGiGHu6vccYb_2X1acL1vK-DAMXpAMIJDyIlE4r6ahbuHxrz0sZq4Ptran9EQF6HnZpqfUGgBdYg8g2-iKqW36XfRaItiwDZq8GR_6uC40ffrRR7O3tg2ZVoaxZc_y38exx4RQq0xLyzoIB1SHIdgWxs1PgYChpleQK-blooBuVuLMVcpGIZh-c1Pf9j2BY4vx1DjbyX7aqCysBvkTN9I4Y5bt4WO7zIxIuTMxm7FMorJXTH3o943mGhUIKgLTiAaWFg8cC2yB_emROq4CfXNA6upZUYSTQvyRaPE_DstA5e0CmH3-YIXT97Cq1FizZ4HR_WSaFudhpusqgScAVkEgIwzXpmPzozWoin6wE1CV_qS4IouXhsb2PYChcPL-kZux9bHkuASsQmxlLvyzE_foPK6GWYCzcbHQtFOgwvDoemiZzm3hs7WrscCcJo.mim-dVgKTFTspgB5vlY5Hw.b38a51d3624ea8365483fabf71df8c045c9a12cfa86cbc1f9d1956eca26ab4e6
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:871 [Turnstile] setTurnstileToken called, tokenLen= 1029
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817 ❌ 403 Forbidden. Turnstile token might be invalid or expired.
+sendPixelBatch @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4817
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4821 🔄 Regenerating Turnstile token after 403...
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-syb2u), consider using reset() before execute().
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b74a23fafa4cc&lang=auto:1 WebGPU is experimental on this platform. See https://github.com/gpuweb/gpuweb/wiki/Implementation-Status#implementation-status
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b74a23fafa4cc&lang=auto:1 Failed to create WebGPU Context Provider
+sF @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b74a23fafa4cc&lang=auto:1
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b74a23fafa4cc&lang=auto:1 Failed to create WebGPU Context Provider
+sF @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b74a23fafa4cc&lang=auto:1
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300031
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300031
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849 ❌ Turnstile token generation failed: Error: Invalid or empty token received
+    at handleCaptcha (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1846:15)
+    at async sendPixelBatch (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4822:19)
+    at async processImage (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4656:27)
+    at async HTMLButtonElement.startPainting (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4452:9)
+handleCaptcha @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1852 🔄 Falling back to browser automation...
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/972b74a23fafa4cc/1755793213447/dc6f49e68f80a9186aa52ed315f389e8addefb3f2583b3b45e60ade5373e7f4a/7aXpjJUmCW3O3gj:1  Failed to load resource: the server responded with a status of 401 ()
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4844 ❌ Token regeneration failed: Error: Auto-CAPTCHA timed out.
+    at userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1864:69
+    at async userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1917:9
+sendPixelBatch @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4844
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1838 🔑 Generating Turnstile token for sitekey: 0x4AAAAAABpqJe8FO0N84q0F
+api.js?render=explicit:1 [Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-g635t), consider using reset() before execute().
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/972b76763fa5a4cc/1755793291664/dc9f4c4b9cfa9524510d6f0d076f7dce6d5c659d9e7367c5a1bc50b2aa15f0d9/1T4nUoGuUAc3hCT:1  Failed to load resource: the server responded with a status of 401 ()
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have crashed:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300031
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300031.
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849 ❌ Turnstile token generation failed: Error: Invalid or empty token received
+    at handleCaptcha (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1846:15)
+    at async processImage (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4660:17)
+    at async HTMLButtonElement.startPainting (userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4452:9)
+handleCaptcha @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1849
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1852 🔄 Falling back to browser automation...
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4769 📊 Pixel Statistics:
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4770    Painted: 61
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4771    Skipped - Transparent: 0
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4772    Skipped - White (disabled): 756
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4773    Skipped - Already painted: 26
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:4774    Total processed: 843
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+3755 log entries are not shown.
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+3785 log entries are not shown.
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+3928 log entries are not shown.
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1 [[[ERROR]]]: Uncaught TypeError: Cannot read properties of undefined (reading 'querySelector')
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1 Uncaught TypeError: Cannot read properties of undefined (reading 'querySelector')
+    at sa (challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1:92661)
+    at sz (challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1:73569)
+    at challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1:11246
+sa @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1
+sz @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1
+(anonymous) @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b79610fc9a4cc&lang=auto:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+4096 log entries are not shown.
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+4264 log entries are not shown.
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+4432 log entries are not shown.
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+4600 log entries are not shown.
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  x52bb
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  dvq89
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  o49hx
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  syb2u
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  drnrf
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  g635t
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 Turnstile Widget seem to have hung:  sabfr
+userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072 Turnstile error-callback: 300030
+error-callback @ userscript.html?name=New-Userscript.user.js&id=8c2b41b2-1c86-46fe-ae65-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+api.js?render=explicit:1 [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+service-worker.js:1 painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+4796 log entries are not shown.
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+ Turnstile Widget seem to have hung:  x52bb
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  dvq89
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  o49hx
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  syb2u
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  drnrf
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  g635t
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  sabfr
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+4992 log entries are not shown.
+auto/:1  GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/cmg/1 net::ERR_CONNECTION_CLOSED
+1:1  Failed to load resource: net::ERR_CONNECTION_CLOSED
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+auto/:1  GET https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7c9978c4a4cc&lang=auto net::ERR_CONNECTION_CLOSED
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7c9978c4a4cc&lang=auto:1  Failed to load resource: net::ERR_CONNECTION_CLOSED
+ Turnstile Widget seem to have hung:  dvq89
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  o49hx
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  syb2u
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  drnrf
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  g635t
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  sabfr
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+5163 log entries are not shown.
+ Turnstile Widget seem to have hung:  dvq89
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  o49hx
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  syb2u
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  drnrf
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  g635t
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1 [[[ERROR]]]: Uncaught TypeError: Cannot read properties of undefined (reading 'querySelector')
+challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1 Uncaught 
+E7 @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1
+EE @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1
+(anonymous) @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1
+setInterval
+(anonymous) @ challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=972b7d81e9dccb24&lang=auto:1
+5303 log entries are not shown.
+ Turnstile Widget seem to have hung:  sabfr
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  dvq89
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  o49hx
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  syb2u
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  drnrf
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  g635t
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
+5472 log entries are not shown.
+ Turnstile Widget seem to have hung:  dvq89
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  o49hx
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  syb2u
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  drnrf
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ Turnstile Widget seem to have hung:  sabfr
+ Turnstile error-callback: 300030
+error-callback @ userscript.html?name…5-4ccc0a1863e1:1072
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ [Cloudflare Turnstile] Error: 300030.
+x @ api.js?render=explicit:1
+N @ api.js?render=explicit:1
+zr @ api.js?render=explicit:1
+(anonymous) @ api.js?render=explicit:1
+ painting 404 tile
+p @ service-worker.js:1
+await in p
+(anonymous) @ service-worker.js:1
+setTimeout
+i @ service-worker.js:1
+await in i
+n @ service-worker.js:1
+(anonymous) @ service-worker.js:1
